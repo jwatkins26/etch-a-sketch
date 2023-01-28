@@ -15,3 +15,10 @@ h1 {
     letter-spacing: 4px;
     font-size: 3vw;
 }
+
+.board {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    border: solid red;
+}
