@@ -16,9 +16,20 @@
         <h1>Etch - A - Sketch</h1>
     </div>
     
-    <div id="container">
-
+    <div class="flex-container">
+        <div class="content">
+            <div class="board"></div>
+            <div class="buttons">
+                <button>Black</button>
+                <button>White</button>
+                <button>Rainbow</button>
+                <button>Reset</button>
+            </div>
+        </div>
+        <input type="text" placeholder="size of board" value="16" onchange="changeSize(this.value)">
+        <button class="submit">Submit</button>
     </div>
+   
 
 
 </body>
