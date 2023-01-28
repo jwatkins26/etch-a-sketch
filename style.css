@@ -1,0 +1,16 @@
+* {
+    background-color: honeydew;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    margin: auto;
+    width: 50;
+    /* border: solid black 2px;  Debug */
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 4px;
+}
