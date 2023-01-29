@@ -20,10 +20,10 @@
         <div class="content">
             <div class="board"></div>
             <div class="buttons">
-                <button onclick="changeColor('black')">Black</button>
-                <button onclick="changeColor('white')">Eraser</button>
-                <button onclick="changeColor('rainbow')">Rainbow</button>
-                <button onclick="resetBoard()">Reset</button>
+                <button class="black" onclick="changeColor('black')">Black</button>
+                <button class="white" onclick="changeColor('white')">Eraser</button>
+                <button class="rainbow" onclick="changeColor('rainbow')">Rainbow</button>
+                <button class="reset" onclick="resetBoard()">Reset</button>
             </div>
         </div>
         <input type="text" placeholder="size of board" value="16" onchange="changeSize(this.value)">
