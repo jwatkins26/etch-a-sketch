@@ -17,7 +17,11 @@
     </div>
     
     <div class="flex-container">
+        
         <div class="content">
+            <p>Select board size: </p>
+            <input type="text" placeholder="size of board" value="16" onchange="changeSize(this.value)">
+            <button class="submit">Submit</button>
             <div class="board"></div>
             <div class="buttons">
                 <button class="black" onclick="changeColor('black')">Black</button>
@@ -26,8 +30,7 @@
                 <button class="reset" onclick="resetBoard()">Reset</button>
             </div>
         </div>
-        <input type="text" placeholder="size of board" value="16" onchange="changeSize(this.value)">
-        <button class="submit">Submit</button>
+        
     </div>
    
 
