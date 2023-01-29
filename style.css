@@ -1,5 +1,5 @@
 * {
-    background-color: honeydew;
+    background-color: #f2f2f2;
     font-family: 'Righteous', cursive;
     font-family: 'Roboto', sans-serif;
 }
@@ -16,9 +16,67 @@ h1 {
     font-size: 3vw;
 }
 
+button {
+    margin: 10px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 8%;
+    transition-duration: 0.3s;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.black:hover {
+    background-color: white;
+    color: black;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.white:hover {
+    background-color: black;
+    color: white;
+}
+
+.rainbow {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    color: white;
+}
+
+.rainbow:hover {
+    background-image: linear-gradient(to right, gray, black, gray);
+    color: white;
+}
+
+.reset {
+    background-color: red;
+}
+.reset:hover {
+    background-color: white;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .board {
     height: 500px;
     width: 500px;
     display: grid;
     border: solid red;
+    
+}
+
+input {
+    background-color: white;
 }
